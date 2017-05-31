@@ -12,8 +12,28 @@
     tools:context="com.eventcamera.eventcamera.AddPhoto"
     tools:showIn="@layout/activity_add_photo">
 
-    <TextView
+    <Button
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:layout_marginTop="23dp"
+        android:onClick="editMetadata"
+        android:text="@string/button_send" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_marginTop="48dp"
+        android:layout_toLeftOf="@+id/button"
+        android:layout_toStartOf="@+id/button"
+        android:ems="10"
+        android:hint="@string/edit_metadata"
+        android:inputType="textPersonName" />
 </RelativeLayout>
