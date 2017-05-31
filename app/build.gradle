@@ -8,12 +8,7 @@ buildscript {
     }
 }
 
-<<<<<<< HEAD
 
-
-
-=======
->>>>>>> f64a956c78dc0a1ee4e4da2184e64e02b22edf34
 apply plugin: 'com.android.application'
 
 android {
