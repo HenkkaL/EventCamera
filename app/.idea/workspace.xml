@@ -10,14 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2688dc84-ea5a-4ce5-a439-5d254b576dac" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_1_0_2.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/constraint_layout_solver_1_0_2.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eventcamera/eventcamera/AddPhoto.java" afterPath="$PROJECT_DIR$/src/main/java/com/eventcamera/eventcamera/AddPhoto.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/eventcamera/eventcamera/DisplayExifMetadata.java" afterPath="$PROJECT_DIR$/src/main/java/com/eventcamera/eventcamera/DisplayExifMetadata.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/activity_add_photo.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_add_photo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/activity_display_exif_metadata.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/activity_display_exif_metadata.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/res/layout/content_add_photo.xml" afterPath="$PROJECT_DIR$/src/main/res/layout/content_add_photo.xml" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,8 +72,8 @@
       <file leaf-file-name="DisplayExifMetadata.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eventcamera/eventcamera/DisplayExifMetadata.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+            <state relative-caret-position="300">
+              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2676,8 +2670,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eventcamera/eventcamera/DisplayExifMetadata.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        <state relative-caret-position="300">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
         </state>
       </provider>
