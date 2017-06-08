@@ -10,13 +10,20 @@ public class DisplayExifMetadata extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_display_exif_metadata);
+
+        // alkuperäinen
+        //setContentView(R.layout.activity_display_exif_metadata);
+        setContentView(R.layout.activity_add_photo);
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(AddPhoto.EXTRA_MESSAGE);
-        TextView textView = (TextView) findViewById(R.id.textView);
-        textView.setText(message);
 
+        // alkuperäinen versio
+        //TextView textView = (TextView) findViewById(R.id.metadataView);
+        //textView.setText(message);
+
+        TextView textView = (TextView) findViewById(R.id.displayExif);
+        textView.setText(message);
 
     }
 }
