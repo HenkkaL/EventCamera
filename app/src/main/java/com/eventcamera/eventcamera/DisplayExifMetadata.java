@@ -3,6 +3,7 @@ package com.eventcamera.eventcamera;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.TextView;
 
 public class DisplayExifMetadata extends AppCompatActivity {
@@ -14,9 +15,7 @@ public class DisplayExifMetadata extends AppCompatActivity {
 
         Intent intent = getIntent();
         String message = intent.getStringExtra(AddPhoto.EXTRA_MESSAGE);
-        TextView textView = (TextView) findViewById(R.id.textView);
+        TextView textView = (TextView) findViewById(R.id.metadataView);
         textView.setText(message);
-
-
     }
 }
