@@ -26,5 +26,7 @@ public class DisplayExifMetadata extends AppCompatActivity {
         textView.setText(message);
 
 
+
+
     }
 }
