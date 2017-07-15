@@ -1,6 +1,5 @@
 package com.eventcamera.eventcamera;
 
-import android.content.ContextWrapper;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
@@ -64,18 +63,6 @@ public class AddPhoto extends AppCompatActivity {
 
         intent.putExtra(EXTRA_MESSAGE, message);
         startActivity(intent);
-
-        ContextWrapper cw = new ContextWrapper(this);
-
-        String teksti2 = ContextWrapper.getFilesDir();
-
-        File imgFile = new File("~/kuvat/101002-beer-garden.jpg");
-
-        //if (imgFile.exists()){
-            String testi = imgFile.toString();
-        //}
-
-
     }
 
 
